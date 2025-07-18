@@ -4,45 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Thesis Daily Log</title>
-    <!-- Load Tailwind CSS for utility classes -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Load Inter font from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        /* Apply Inter font globally and set a default background color */
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f3f4f6; /* Light gray background */
-            color: #374151; /* Dark gray text */
-        }
-    </style>
+    <!-- No CSS loaded or defined -->
 </head>
-<body class="flex flex-col min-h-screen">
+<body>
     <!-- Main container for the daily log content -->
-    <div class="container mx-auto px-4 py-8 flex-grow">
+    <div>
         <!-- Header Section -->
-        <header class="text-center mb-12 bg-white p-6 rounded-lg shadow-md">
-            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-2">
-                Welcome to My Daily Thesis Update
+        <header>
+            <h1>
+                Welcome to My Thesis Life
             </h1>
-            <p class="text-lg text-gray-600">
-                Tracking progress, thoughts, and discoveries, day by day.
+            <p>
+                Here you will find my research updates from day to day.
             </p>
         </header>
 
         <!-- Main Content Area for Log Entries -->
-        <main class="bg-white p-8 rounded-lg shadow-md">
-            <section class="mb-8">
-                <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-6">Recent Entries</h2>
+        <main>
+            <section>
+                <h2>Recent Entries</h2>
 
                 <!-- Example Log Entry 1 -->
-                <div class="bg-gray-50 p-6 rounded-lg shadow-sm mb-6 border border-gray-200">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">July 18, 2025 - Data Analysis Breakthrough</h3>
-                    <p class="text-sm text-gray-600 mb-4">Category: Analysis, Results</p>
-                    <p class="text-base leading-relaxed">
+                <div>
+                    <h3>July 18, 2025 - Data Analysis Breakthrough</h3>
+                    <p>Category: Analysis, Results</p>
+                    <p>
                         Today was a significant day! After struggling with the outlier detection for the past week, I finally implemented the robust statistical method discussed in the recent paper by Dr. Smith. The initial results are promising, showing a clearer distribution of my experimental data. This should greatly improve the accuracy of the subsequent modeling phase.
                     </p>
-                    <ul class="list-disc list-inside text-sm text-gray-700 mt-4">
+                    <ul>
                         <li>Identified and handled 15% more outliers effectively.</li>
                         <li>Ran preliminary regression models with improved data.</li>
                         <li>Scheduled a meeting with supervisor to discuss new findings.</li>
@@ -50,13 +39,13 @@
                 </div>
 
                 <!-- Example Log Entry 2 -->
-                <div class="bg-gray-50 p-6 rounded-lg shadow-sm mb-6 border border-gray-200">
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">July 17, 2025 - Literature Review & Planning</h3>
-                    <p class="text-sm text-gray-600 mb-4">Category: Literature, Planning</p>
-                    <p class="text-base leading-relaxed">
+                <div>
+                    <h3>July 17, 2025 - Literature Review & Planning</h3>
+                    <p>Category: Literature, Planning</p>
+                    <p>
                         Spent the day diving deeper into the literature on [specific sub-topic]. Found three highly relevant papers that provide new perspectives on my methodology. Also, outlined the plan for the next two weeks, focusing on completing the data cleaning and starting the initial model training.
                     </p>
-                    <ul class="list-disc list-inside text-sm text-gray-700 mt-4">
+                    <ul>
                         <li>Read and summarized 3 new research papers.</li>
                         <li>Updated Gantt chart for upcoming tasks.</li>
                         <li>Prepared questions for next supervisor meeting.</li>
@@ -64,8 +53,8 @@
                 </div>
 
                 <!-- Add more log entries here as needed -->
-                <div class="text-center mt-8">
-                    <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                <div>
+                    <button>
                         View All Entries
                     </button>
                 </div>
@@ -74,14 +63,17 @@
     </div>
 
     <!-- Footer Section -->
-    <footer class="bg-gray-800 text-white text-center p-6 mt-8 rounded-t-lg shadow-inner">
-        <p class="text-sm mb-2">
+    <footer>
+        <p>
             This log is a personal record of my thesis journey.
         </p>
-        <p class="text-xs text-gray-400">
+        <p>
+            If you are here and have read it, contact me on <a href="mailto:shreya2012g@gmail.com">shreya2012g@gmail.com</a>.
+        </p>
+        <p>
             Last Updated: July 18, 2025
         </p>
-        <p class="text-xs text-gray-400 mt-2">
+        <p>
             &copy; 2025 [Your Name]. All rights reserved.
         </p>
     </footer>
