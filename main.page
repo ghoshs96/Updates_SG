@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thesis Update Landing Page</title>
+    <!-- Load Tailwind CSS for utility classes -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Inter font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Inter font globally and set a default background color */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #374151; /* Dark gray text */
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+    <!-- Main container for the landing page content -->
+    <div class="container mx-auto px-4 py-8 flex-grow">
+        <!-- Header Section -->
+        <header class="text-center mb-12 bg-white p-6 rounded-lg shadow-md">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-2">
+                Advancements in [Your Field]: Thesis Update - July 2025
+            </h1>
+            <p class="text-lg text-gray-600">
+                A concise overview of my recent research progress
+            </p>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="bg-white p-8 rounded-lg shadow-md">
+            <!-- Introduction/Abstract Section -->
+            <section class="mb-8">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-4">Introduction</h2>
+                <p class="text-base leading-relaxed">
+                    This landing page provides a brief update on the progress of my thesis, "[Your Thesis Full Title Here]". My research focuses on [briefly state your research area and its significance, e.g., "developing novel algorithms for secure quantum communication"]. This update highlights key milestones achieved and outlines the next steps in my research journey.
+                </p>
+            </section>
+
+            <!-- Key Progress & Highlights Section -->
+            <section class="mb-8">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-4">Key Progress & Highlights</h2>
+                <ul class="list-disc list-inside space-y-2 text-base leading-relaxed">
+                    <li class="pl-2">
+                        <span class="font-medium text-gray-800">Completed Data Collection:</span> Successfully gathered and pre-processed a comprehensive dataset of [mention type of data, e.g., "sensor readings from smart city infrastructure"].
+                    </li>
+                    <li class="pl-2">
+                        <span class="font-medium text-gray-800">Implemented Core Model:</span> Developed and refined the [mention model type, e.g., "deep learning model based on convolutional neural networks"] for [mention purpose, e.g., "predicting traffic flow patterns"].
+                    </li>
+                    <li class="pl-2">
+                        <span class="font-medium text-gray-800">Preliminary Results:</span> Achieved [mention a key metric or finding, e.g., "an accuracy of 92% on initial validation sets"], demonstrating the potential of the proposed approach.
+                    </li>
+                    <li class="pl-2">
+                        <span class="font-medium text-gray-800">Methodological Improvements:</span> Integrated [mention an improvement, e.g., "a new regularization technique"] to enhance model robustness and prevent overfitting.
+                    </li>
+                    <li class="pl-2">
+                        <span class="font-medium text-gray-800">Literature Review Expansion:</span> Expanded the literature review to include recent advancements in [mention relevant sub-field, e.g., "federated learning for IoT devices"].
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Visuals Section (Optional) -->
+            <section class="mb-8">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-4">Visual Insights</h2>
+                <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
+                    <div class="w-full md:w-1/2">
+                        <!-- Placeholder image for a graph or diagram -->
+                        <img src="https://placehold.co/600x350/a78bfa/ffffff?text=Preliminary+Results+Graph" alt="Preliminary Results Graph" class="w-full h-auto rounded-lg shadow-md object-cover">
+                        <p class="text-sm text-center text-gray-500 mt-2">Figure 1: Initial model performance on validation dataset.</p>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <!-- Placeholder image for a diagram or setup -->
+                        <img src="https://placehold.co/600x350/60a5fa/ffffff?text=Experimental+Setup+Diagram" alt="Experimental Setup Diagram" class="w-full h-auto rounded-lg shadow-md object-cover">
+                        <p class="text-sm text-center text-gray-500 mt-2">Figure 2: Schematic of the experimental data collection setup.</p>
+                    </div>
+                </div>
+                <p class="text-base leading-relaxed mt-4">
+                    The graphs above illustrate some of the preliminary findings from my recent experiments. Figure 1 shows the [briefly explain what the first visual represents]. Figure 2 depicts the [briefly explain what the second visual represents]. These visuals provide a quick overview of the progress made.
+                </p>
+            </section>
+
+            <!-- Next Steps/Future Work Section -->
+            <section class="mb-8">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-4">Next Steps & Future Work</h2>
+                <ul class="list-disc list-inside space-y-2 text-base leading-relaxed">
+                    <li class="pl-2">
+                        <span class="font-medium text-gray-800">Model Optimization:</span> Further optimize the [your model/algorithm] for improved performance and efficiency.
+                    </li>
+                    <li class="pl-2">
+                        <span class="font-medium text-gray-800">Comprehensive Evaluation:</span> Conduct extensive testing and evaluation on diverse datasets to validate generalizability.
+                    </li>
+                    <li class="pl-2">
+                        <span class="font-medium text-gray-800">Drafting Chapters:</span> Begin drafting the [mention specific chapters, e.g., "Results and Discussion"] sections of the thesis.
+                    </li>
+                    <li class="pl-2">
+                        <span class="font-medium text-gray-800">Supervisor Feedback:</span> Incorporate feedback from supervisors and refine research direction as needed.
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Call to Action Section (Optional) -->
+            <section class="mb-8 text-center">
+                <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-4">Want to Learn More?</h2>
+                <p class="text-base leading-relaxed mb-4">
+                    For a more detailed breakdown of the progress and findings, you can:
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                        Download Full Progress Report (PDF)
+                    </a>
+                    <a href="#" class="inline-block bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                        View Code on GitHub
+                    </a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white text-center p-6 mt-8 rounded-t-lg shadow-inner">
+        <p class="text-sm mb-2">
+            Contact: <a href="mailto:your.email@example.com" class="text-blue-400 hover:underline">your.email@example.com</a> |
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-blue-400 hover:underline">LinkedIn Profile</a>
+        </p>
+        <p class="text-xs text-gray-400">
+            Last Updated: July 18, 2025
+        </p>
+        <p class="text-xs text-gray-400 mt-2">
+            &copy; 2025 [Your Name]. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
