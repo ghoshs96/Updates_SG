@@ -1,81 +1,10 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Thesis Daily Log</title>
-    <!-- No CSS loaded or defined -->
+    <title>Greeting Page</title>
 </head>
 <body>
-    <!-- Main container for the daily log content -->
-    <div>
-        <!-- Header Section -->
-        <header>
-            <h1>
-                Welcome to My Thesis Life
-            </h1>
-            <p>
-                Here you will find my research updates from day to day.
-            </p>
-        </header>
-
-        <!-- Main Content Area for Log Entries -->
-        <main>
-            <section>
-                <h2>Recent Entries</h2>
-
-                <!-- Example Log Entry 1 -->
-                <div>
-                    <h3>July 18, 2025 - Data Analysis Breakthrough</h3>
-                    <p>Category: Analysis, Results</p>
-                    <p>
-                        Today was a significant day! After struggling with the outlier detection for the past week, I finally implemented the robust statistical method discussed in the recent paper by Dr. Smith. The initial results are promising, showing a clearer distribution of my experimental data. This should greatly improve the accuracy of the subsequent modeling phase.
-                    </p>
-                    <ul>
-                        <li>Identified and handled 15% more outliers effectively.</li>
-                        <li>Ran preliminary regression models with improved data.</li>
-                        <li>Scheduled a meeting with supervisor to discuss new findings.</li>
-                    </ul>
-                </div>
-
-                <!-- Example Log Entry 2 -->
-                <div>
-                    <h3>July 17, 2025 - Literature Review & Planning</h3>
-                    <p>Category: Literature, Planning</p>
-                    <p>
-                        Spent the day diving deeper into the literature on [specific sub-topic]. Found three highly relevant papers that provide new perspectives on my methodology. Also, outlined the plan for the next two weeks, focusing on completing the data cleaning and starting the initial model training.
-                    </p>
-                    <ul>
-                        <li>Read and summarized 3 new research papers.</li>
-                        <li>Updated Gantt chart for upcoming tasks.</li>
-                        <li>Prepared questions for next supervisor meeting.</li>
-                    </ul>
-                </div>
-
-                <!-- Add more log entries here as needed -->
-                <div>
-                    <button>
-                        View All Entries
-                    </button>
-                </div>
-            </section>
-        </main>
-    </div>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>
-            This log is a personal record of my thesis journey.
-        </p>
-        <p>
-            If you are here and have read it, contact me on <a href="mailto:shreya2012g@gmail.com">shreya2012g@gmail.com</a>.
-        </p>
-        <p>
-            Last Updated: July 18, 2025
-        </p>
-        <p>
-            &copy; 2025 [Your Name]. All rights reserved.
-        </p>
-    </footer>
+    Hi
 </body>
 </html>
