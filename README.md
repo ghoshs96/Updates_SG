@@ -1,2 +1,9 @@
-# Updates_SG
-Thesis Update on everyday basis 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greeting Page</title>
+</head>
+<body>
+    Hi
+</body>
+</html>
